@@ -1,0 +1,279 @@
+/*
+Theme Name: Visual Composer Starter Child
+Theme URI: http://visualcomposer.com
+Description: Visual Composer Starter child theme
+Author: The Visual Composer Team
+Author URI: http://visualcomposer.com
+Template: visual-composer-starter
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, blog, starter, responsive-layout, accessibility-ready, sandwich-menu
+Text Domain: visual-composer-starter-child
+*/
+
+@font-face {
+  font-family: 'db_helvethaicamon_x77_bdcond';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_cond_v3.2-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_cond_v3.2-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_cond_v3.2-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_cond_v3.2-webfont.svg#db_helvethaicamon_x77_bdcond') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'db_helvethaicamon_x75_bd';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_v3.2-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_v3.2-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_v3.2-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_bd_v3.2-webfont.svg#db_helvethaicamon_x75_bd') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'db_helvethaicamon_x85_blk';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_blk_v3.2-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_blk_v3.2-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_blk_v3.2-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_blk_v3.2-webfont.svg#db_helvethaicamon_x85_blk') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'db_helvethaicamon_x57_cond';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_cond_v3.2-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_cond_v3.2-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_cond_v3.2-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_cond_v3.2-webfont.svg#db_helvethaicamon_x57_cond') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'db_helvethaicamon_x67_medcond';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_cond_v3.2-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_cond_v3.2-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_cond_v3.2-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_cond_v3.2-webfont.svg#db_helvethaicamon_x67_medcond') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'db_helvethaicamon_x65_med';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_v3.2-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_v3.2-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_v3.2-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_med_v3.2-webfont.svg#db_helvethaicamon_x65_med') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'db_helvethaicamon_x55_regular';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_v3.2-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_v3.2-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_v3.2-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/db_helvethaicamon_x_v3.2-webfont.svg#db_helvethaicamon_x55_regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bariol_boldbold';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_bold-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_bold-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_bold-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_bold-webfont.svg#bariol_boldbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bariollight';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_light-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_light-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_light-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_light-webfont.svg#bariollight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bariol_regularregular';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_regular-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_regular-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_regular-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_regular-webfont.svg#bariol_regularregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'bariolthin';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_thin-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_thin-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_thin-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/bariol_thin-webfont.svg#bariolthin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'chalkdusterregular';
+  src: url('/wp-content/themes/visual-composer-starter-child/fonts/chalkduster-webfont.woff2') format('woff2'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/chalkduster-webfont.woff') format('woff'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/chalkduster-webfont.ttf') format('truetype'),
+       url('/wp-content/themes/visual-composer-starter-child/fonts/chalkduster-webfont.svg#chalkdusterregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+/* custom */
+.woocommerce-LoopProduct-link .woocommerce-loop-product__link{
+	min-height:1000px;
+}
+
+/* Product Page */
+.woocommerce ul.products li.product .button{
+	padding:1rem;
+	background-color : green;
+	font-family:'chalkdusterregular','db_helvethaicamon_x55_regular'!important;
+	border-radius:50px;
+	width:100%;
+  float:left;
+}
+.woocommerce div.product form.cart .button,.visualcomposerstarter .woocommerce .vct-checkout-button{
+	padding:1rem;
+	background-color : green;
+	font-family:'chalkdusterregular','db_helvethaicamon_x55_regular'!important;
+	border-radius:50px;
+	width:100%;
+	float:left;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{
+  border-radius: 2px;
+  border:1px solid rgba(0,0,0,.1);
+  line-height:0;
+  height:60px;
+  padding:20px 30px 20px 20px;
+
+}
+.woocommerce form .form-row select, .woocommerce-page form .form-row select{
+  border-radius: 2px;
+  border:1px solid rgba(0,0,0,.1);
+  line-height:0;
+  height:60px;
+  padding:20px 30px 20px 20px;
+}
+
+.wc-box-office-ticket-form .wc-box-office-ticket-fields .wc-box-office-ticket-fields-title a{
+  font-family:'chalkdusterregular','db_helvethaicamon_x55_regular'!important;
+  text-align: right;
+  clear: both;
+  padding-top: 20px;
+  padding-right: 30px;
+}
+/* error message */
+.visualcomposerstarter .woocommerce-error, .visualcomposerstarter.woocommerce .woocommerce-error{
+  background: #ff89c0;
+  border-radius: 50px;
+	font-size:1em;
+}
+.visualcomposerstarter .woocommerce-info, .visualcomposerstarter.woocommerce .woocommerce-info{
+
+  background: rgb(194, 134, 44);
+  border-radius: 50px;
+	font-size:1em;
+}
+
+/* discription  */
+.visualcomposerstarter.woocommerce div.product .woocommerce-tabs .panel{
+  padding: 50px;
+}
+
+.visualcomposerstarter.woocommerce ul.products{
+  margin-bottom: 250px;
+}
+
+.woocommerce-Price-amount .amount{
+	font-size:1em;
+
+	text-align:right;
+	color:#333;
+
+}
+.button .wc-forward{
+  width: 200px !important;
+  text-align: right;
+
+}
+
+
+.visualcomposerstarter .woocommerce table.shop_table td{
+  text-align: left;
+}
+.visualcomposerstarter .woocommerce table.shop_table td, .visualcomposerstarter .woocommerce table.shop_table th{
+  width: auto;
+}
+
+.product-remove ,.product-thumbnail{
+  width: 64px !important;
+}
+
+.visualcomposerstarter .woocommerce table.shop_table{
+  font-family: 'db_helvethaicamon_x55_regular' !important;
+  font-size: 1em !important;
+}
+div .woocommerce-message{
+  width:300px;
+}
+
+.visualcomposerstarter .woocommerce .button, .visualcomposerstarter .woocommerce .vct-checkout-button{
+  padding:1rem!important;
+	background-color : green !important;
+	font-family:'chalkdusterregular','db_helvethaicamon_x55_regular'!important;
+	border-radius:50px!important;
+}
+.coupon .input-text{
+  min-width: 300px;
+}
+
+.woocommerce{
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+
+#submit_2c2p_payment_form{
+  padding:1rem;
+  background-color : green !important;
+  color: aliceblue;
+	font-family:'chalkdusterregular','db_helvethaicamon_x55_regular'!important;
+  border-radius:50px;
+  border: none;
+}
+
+.visualcomposerstarter .woocommerce a.button .cancel{
+  padding:1rem!important;
+	background-color : rgb(251, 71, 65)!important;
+  font-family:'chalkdusterregular','db_helvethaicamon_x55_regular'!important;
+  font-size: smaller;
+	border-radius:50px!important;
+}
+
+.page-title{
+	font-family:'chalkdusterregular','db_helvethaicamon_x55_regular'!important;
+
+}
+
+.visualcomposerstarter div.woocommerce-error .button, .visualcomposerstarter div.woocommerce-error .restore-item, .visualcomposerstarter div.woocommerce-error a.button, .visualcomposerstarter div.woocommerce-info .button, .visualcomposerstarter div.woocommerce-info .restore-item, .visualcomposerstarter div.woocommerce-info a.button, .visualcomposerstarter div.woocommerce-message .button, .visualcomposerstarter div.woocommerce-message .restore-item, .visualcomposerstarter div.woocommerce-message a.button, .visualcomposerstarter.woocommerce div.woocommerce-error .button, .visualcomposerstarter.woocommerce div.woocommerce-error .restore-item, .visualcomposerstarter.woocommerce div.woocommerce-error a.button, .visualcomposerstarter.woocommerce div.woocommerce-info .button, .visualcomposerstarter.woocommerce div.woocommerce-info .restore-item, .visualcomposerstarter.woocommerce div.woocommerce-info a.button, .visualcomposerstarter.woocommerce div.woocommerce-message .button, .visualcomposerstarter.woocommerce div.woocommerce-message .restore-item, .visualcomposerstarter.woocommerce div.woocommerce-message a.button{
+  width: 200px;
+}
