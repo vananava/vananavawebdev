@@ -11,6 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, blog, starter, responsive-layout, accessibility-ready, sandwich-menu
 Text Domain: visual-composer-starter-child
 */
+@import "css/style.css";
 
 @font-face {
   font-family: 'db_helvethaicamon_x77_bdcond';
